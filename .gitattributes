@@ -1,12 +1,13 @@
-
+# To exclude configuration/default files
 *.html linguist-vendored
 *.tex linguist-vendored
+*.sty linguist-vendored
+*.v linguist-vendored
 
+# To include correct files
 FinalProject_microcontroller/Matrix_Sender_C/src linguist-language=C
-
 FinalProject_microcontroller/Matrix_Sender_Python/main.py linguist-language=Python
 FinalProject_microcontroller/Matrix_Sender_Python/boot.py linguist-language=Python
-
 FinalProject_FPGA/source/impl_1/top.vhd linguist-language=VHDL
 FinalProject_FPGA/source/impl_1/pattern_gen.vhd linguist-language=VHDL
 FinalProject_FPGA/source/impl_1/matrix_mult.vhd linguist-language=VHDL
