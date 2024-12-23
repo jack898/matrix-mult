@@ -1,0 +1,56 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       1394        100.0
+                               LUTGATE	       1206        100.0
+                                LUTCCU	        188        100.0
+                                 IOBUF	         14        100.0
+                                PFUREG	        194        100.0
+                                   DSP	          6        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                           matrix_mult	          1        47.4
+                                 mypll	          1         0.0
+                           pattern_gen	          1        33.6
+                                   vga	          1         4.4
+---------------------------------------------------
+Report for cell matrix_mult
+   Instance path: top/matrix_mult0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        661        47.4
+                               LUTGATE	        661        54.8
+                                   DSP	          6        100.0
+---------------------------------------------------
+Report for cell vga
+   Instance path: top/vga0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         61         4.4
+                               LUTGATE	         37         3.1
+                                LUTCCU	         24        12.8
+                                PFUREG	         21        10.8
+---------------------------------------------------
+Report for cell pattern_gen
+   Instance path: top/pattern_gen0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        468        33.6
+                               LUTGATE	        316        26.2
+                                LUTCCU	        152        80.9
+                                PFUREG	         22        11.3
+---------------------------------------------------
+Report for cell mypll
+   Instance path: top/mypll0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+mypll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")	          1         0.0
+---------------------------------------------------
+Report for cell mypll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")
+   Instance path: top/mypll0/lscc_pll_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

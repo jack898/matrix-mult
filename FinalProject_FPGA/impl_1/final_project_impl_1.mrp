@@ -1,0 +1,272 @@
+                         Lattice Mapping Report File
+Design:  top
+Family:  iCE40UP
+Device:  iCE40UP5K
+Package: SG48
+Performance Grade:  High-Performance_1.2V
+
+Mapper:    version Radiant Software (64-bit) 2023.1.0.43.3
+Mapped on: Mon Dec 16 14:27:51 2024
+
+Design Information
+------------------
+
+Command line:   map -i final_project_impl_1_syn.udb -pdc
+     Z:/es4/final_project/pinout.pdc -o final_project_impl_1_map.udb -mp
+     final_project_impl_1.mrp -hierrpt -gui
+
+Design Summary
+--------------
+
+   Number of slice registers: 194 out of  5280 (4%)
+   Number of I/O registers:      0 out of   117 (0%)
+   Number of LUT4s:           1394 out of  5280 (26%)
+      Number of logic LUT4s:             1065
+      Number of inserted feedthru LUT4s: 140
+      Number of replicated LUT4s:          1
+      Number of ripple logic:             94 (188 LUT4s)
+   Number of IO sites used:   14 out of 39 (36%)
+      Number of IO sites used for general PIO: 14
+      Number of IO sites used for I3C: 0 out of 2 (0%)
+      (note: If I3C is not used, its site can be used as general PIO)
+      Number of IO sites used for PIO+I3C: 14 out of 36 (39%)
+      Number of IO sites used for OD+RGB IO buffers: 0 out of 3 (0%)
+      (note: If RGB LED drivers are not used, sites can be used as OD outputs,
+       see TN1288 iCE40 LED Driver Usage Guide)
+      Number of IO sites used for PIO+I3C+OD+RGB: 14 out of 39 (36%)
+   Number of DSPs:             6 out of 8 (75%)
+   Number of I2Cs:             0 out of 2 (0%)
+   Number of High Speed OSCs:  0 out of 1 (0%)
+   Number of Low Speed OSCs:   0 out of 1 (0%)
+   Number of RGB PWM:          0 out of 1 (0%)
+   Number of RGB Drivers:      0 out of 1 (0%)
+   Number of SCL FILTERs:      0 out of 2 (0%)
+   Number of SRAMs:            0 out of 4 (0%)
+   Number of WARMBOOTs:        0 out of 1 (0%)
+   Number of SPIs:             0 out of 2 (0%)
+   Number of EBRs:             0 out of 30 (0%)
+   Number of PLLs:             1 out of 1 (100%)
+   Number of Clocks:  4
+      Net clk_c: 147 loads, 147 rising, 0 falling (Driver: Port clk)
+      Net clk_int: 13 loads, 13 rising, 0 falling (Driver: Pin
+     mypll0.lscc_pll_inst.u_PLL_B/OUTGLOBAL)
+      Net clk_ani: 14 loads, 14 rising, 0 falling (Driver: Pin
+     vga0.clk_ani_I_0/Q)
+      Net clk_e_c: 1 loads, 1 rising, 0 falling (Driver: Port clk_e)
+   Number of Clock Enables:  4
+      Net loadA_0__N_189: 70 loads, 70 SLICEs
+      Net count_0__N_359: 6 loads, 6 SLICEs
+      Net loadB_0__N_329: 70 loads, 70 SLICEs
+      Net col_0__N_50: 6 loads, 6 SLICEs
+   Number of LSRs:  6
+
+                                    Page 1
+
+
+
+
+
+Design Summary (cont)
+---------------------
+      Net loadA_0__N_190: 70 loads, 70 SLICEs
+      Net count_0__N_360: 6 loads, 6 SLICEs
+      Net loadB_0__N_330: 70 loads, 70 SLICEs
+      Net col_0__N_50: 6 loads, 6 SLICEs
+      Net vga0.clk_ani_N_407: 6 loads, 6 SLICEs
+      Net pause_sig_N_409: 1 loads, 1 SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net loadA_0__N_189: 70 loads
+      Net loadA_0__N_190: 70 loads
+      Net loadB_0__N_329: 70 loads
+      Net loadB_0__N_330: 70 loads
+      Net n362: 42 loads
+      Net n383: 37 loads
+      Net row[9]: 37 loads
+      Net loadA[57]: 31 loads
+      Net loadA[49]: 30 loads
+      Net loadA[56]: 30 loads
+
+
+
+
+   Number of warnings:  12
+   Number of errors:    0
+
+Design Errors/Warnings
+----------------------
+
+WARNING <1026001> - map: Z:/es4/final_project/pinout.pdc (2) : No port matched
+     'output'.
+WARNING <1026001> - map: Z:/es4/final_project/pinout.pdc (4) : No port matched
+     'finish'.
+WARNING <1026001> - map: Z:/es4/final_project/pinout.pdc (17) : No port matched
+     'clock_measure'.
+WARNING <1027013> - map: No port matched 'output'.
+WARNING <1014301> - map: Can't resolve object 'output' in constraint
+     'ldc_set_location -site {28} [get_ports output]'.
+WARNING <1027013> - map: No port matched 'finish'.
+WARNING <1014301> - map: Can't resolve object 'finish' in constraint
+     'ldc_set_location -site {36} [get_ports finish]'.
+WARNING <1027013> - map: No port matched 'clock_measure'.
+WARNING <1014301> - map: Can't resolve object 'clock_measure' in constraint
+     'ldc_set_location -site {9} [get_ports clock_measure]'.
+WARNING <1011001> - map: Remove invalid constraint 'ldc_set_location -site {28}
+     [get_ports output]'.
+WARNING <1011001> - map: Remove invalid constraint 'ldc_set_location -site {36}
+     [get_ports finish]'.
+WARNING <1011001> - map: Remove invalid constraint 'ldc_set_location -site {9}
+     [get_ports clock_measure]'.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| clk_e               | INPUT     |           |       |       |           |
+
+                                    Page 2
+
+
+
+
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+-------+-------+-----------+
+| start_sig           | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rst                 | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| input               | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| clk                 | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rgb[0]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rgb[1]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rgb[2]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rgb[3]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rgb[4]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| rgb[5]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| VSYNC               | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| HSYNC               | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| clk_out             | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+Removed logic
+-------------
+
+Block i1 was optimized away.
+
+PLL/DLL Summary
+---------------
+
+PLL 1:                                 Pin/Node Value
+  PLL Instance Name:                            mypll0/lscc_pll_inst/u_PLL_B
+  Input Reference Clock:               PIN      clk_e_c
+  Output Clock(CoreA):                 PIN      clk_out_c
+  Output Clock(GlobalA):               NODE     clk_int
+  Output Clock(CoreB):                          NONE
+  Output Clock(GlobalB):                        NONE
+  Feedback input:                      NODE     mypll0.lscc_pll_inst.feedback_w
+  Internal Feedback output:            NODE     mypll0.lscc_pll_inst.feedback_w
+  BYPASS signal:                                GND
+  LATCH signal:                                 GND
+  Lock Signal:                                  NONE
+  Input Clock Frequency (MHz):                  NA
+  Reference Divider:                            0
+  Feedback Divider:                             66
+  VCO Divider:                                  5
+  ENABLE_ICEGATE_PORTA:                         0
+  ENABLE_ICEGATE_PORTB:                         0
+  PLLOUT_SELECT_PORTA:                          GENCLK
+  PLLOUT_SELECT_PORTB:                          GENCLK
+  SHIFTREG_DIV_MODE:                            0
+
+                                    Page 3
+
+
+
+
+
+PLL/DLL Summary (cont)
+----------------------
+  DELAY_ADJUSTMENT_MODE_RELATIVE:               FIXED
+  FDA_RELATIVE:                                 0
+  FEEDBACK_PATH:                                SIMPLE
+  DELAY_ADJUSTMENT_MODE_FEEDBACK:               FIXED
+  FDA_FEEDBACK:                                 0
+  FILTER_RANGE:                                 1
+  EXTERNAL_DIVIDE_FACTOR:                       NONE
+  TEST Mode:                                    0
+
+ASIC Components
+---------------
+
+Instance Name: matrix_mult0/mult_26
+         Type: DSP
+Instance Name: matrix_mult0/mult_28
+         Type: DSP
+Instance Name: matrix_mult0/mult_29
+         Type: DSP
+Instance Name: matrix_mult0/mult_31
+         Type: DSP
+Instance Name: matrix_mult0/mult_617
+         Type: DSP
+Instance Name: matrix_mult0/mult_614
+         Type: DSP
+Instance Name: mypll0/lscc_pll_inst/u_PLL_B
+         Type: PLL
+
+Constraint Summary
+------------------
+
+   Total number of constraints: 19
+   Total number of constraints dropped: 3
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs
+   Total REAL Time: 0 secs
+   Peak Memory Usage: 75 MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 4
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor
+     Corporation,  All rights reserved.

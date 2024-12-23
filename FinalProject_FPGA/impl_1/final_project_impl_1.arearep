@@ -1,0 +1,62 @@
+----------------------------------------------------------------------
+Report for cell top.TECH
+Register bits:  194 of 5280 (3.674%)
+I/O cells:      14
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        94          100.0
+                            FD1P3XZ       194          100.0
+                                 IB         5          100.0
+                               LUT4      1064          100.0
+                              MAC16         6          100.0
+                                 OB         9          100.0
+                              PLL_B         1          100.0
+SUB MODULES
+                        matrix_mult         1
+                              mypll         1
+mypll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")         1
+                        pattern_gen         1
+                                vga         1
+                              TOTAL      1378
+----------------------------------------------------------------------
+Report for cell matrix_mult.v1
+Instance Path : matrix_mult0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       680           63.9
+                              MAC16         6          100.0
+                              TOTAL       686
+----------------------------------------------------------------------
+Report for cell vga.v1
+Instance Path : vga0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        12           12.8
+                            FD1P3XZ        21           10.8
+                               LUT4        37            3.5
+                              TOTAL        70
+----------------------------------------------------------------------
+Report for cell pattern_gen.v1
+Instance Path : pattern_gen0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        76           80.9
+                            FD1P3XZ        22           11.3
+                               LUT4       328           30.8
+                              TOTAL       426
+----------------------------------------------------------------------
+Report for cell mypll.v1
+Instance Path : mypll0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              PLL_B         1          100.0
+SUB MODULES
+mypll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")         1
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell mypll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000").v1
+Instance Path : mypll0.lscc_pll_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              PLL_B         1          100.0
+                              TOTAL         1

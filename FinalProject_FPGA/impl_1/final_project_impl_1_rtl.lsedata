@@ -1,0 +1,23 @@
+<top name = "top"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+    <clockitem name = "clk_out"  type = "net" />
+    <clockitem name = "clk_int"  type = "net" />
+    <clockitem name = "clk_e"  type = "port" />
+    <clockitem name = "clk"  type = "port" />
+    <clockitem name = "clk_ani"  type = "net" />
+    <clockitem name = "mypll0/lscc_pll_inst/outcoreb_o"  type = "net" />
+    <clockitem name = "mypll0/lscc_pll_inst/outglobalb_o"  type = "net" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 7
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+</top>

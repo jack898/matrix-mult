@@ -1,0 +1,121 @@
+#Start recording tcl command: 12/7/2024 14:52:24
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_add_source "Z:/es4/final_project/source/impl_1/pattern_gen.vhd"
+prj_add_source "Z:/es4/final_project/source/impl_1/vga.vhd"
+prj_add_source "Z:/es4/final_project/mypll/mypll.ipx"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+#Stop recording: 12/7/2024 21:00:59

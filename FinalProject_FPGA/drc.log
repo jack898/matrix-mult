@@ -1,0 +1,9 @@
+DRC: Design Rule Check Radiant Software (64-bit) 2023.1.0.43.3
+Mon Dec 16 12:28:32 2024
+
+CRITICAL <71003005> - The clock port [clk_e] is assigned to a non clock dedicated pin [12], which might affect the clock performance. Use dedicated clock resources for the port.
+CRITICAL <71003005> - The clock port [clk] is assigned to a non clock dedicated pin [46], which might affect the clock performance. Use dedicated clock resources for the port.
+WARNING <1027013> - No port matched 'output'.
+WARNING <1014301> - Can't resolve object 'output' in constraint 'ldc_set_location -site {28} [get_ports output]'.
+WARNING <1027013> - No port matched 'finish'.
+WARNING <1014301> - Can't resolve object 'finish' in constraint 'ldc_set_location -site {36} [get_ports finish]'.

@@ -1,0 +1,429 @@
+<HTML>
+<HEAD>
+<TITLE>Lattice TCL Log</TITLE>
+<link href="file:///C:/lscc/radiant/2023.1/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/2023.1/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="pn241207124623"></A><B><U><big>pn241207124623</big></U></B>
+#Start recording tcl command: 12/7/2024 11:11:47
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_create -name "final_project" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_save 
+prj_add_source "Z:/es4/final_project/source/impl_1/top.vhd"
+prj_set_strategy_value -strategy Strategy1 lse_vhdl2008=True
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "Z:/es4/final_project/source/impl_1/matrix_mult.vhd"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "Z:/es4/final_project/pinout.pdc"
+prj_enable_source "Z:/es4/final_project/pinout.pdc"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+#Stop recording: 12/7/2024 12:46:23
+
+
+
+<A name="pn241207210059"></A><B><U><big>pn241207210059</big></U></B>
+#Start recording tcl command: 12/7/2024 14:52:24
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_add_source "Z:/es4/final_project/source/impl_1/pattern_gen.vhd"
+prj_add_source "Z:/es4/final_project/source/impl_1/vga.vhd"
+prj_add_source "Z:/es4/final_project/mypll/mypll.ipx"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+#Stop recording: 12/7/2024 21:00:59
+
+
+
+<A name="pn241208164005"></A><B><U><big>pn241208164005</big></U></B>
+#Start recording tcl command: 12/8/2024 11:17:20
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 12/8/2024 16:40:05
+
+
+
+<A name="pn241209195649"></A><B><U><big>pn241209195649</big></U></B>
+#Start recording tcl command: 12/9/2024 19:37:08
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+#Stop recording: 12/9/2024 19:56:49
+
+
+
+<A name="pn241209201118"></A><B><U><big>pn241209201118</big></U></B>
+#Start recording tcl command: 12/9/2024 20:10:22
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+#Stop recording: 12/9/2024 20:11:18
+
+
+
+<A name="pn241209201848"></A><B><U><big>pn241209201848</big></U></B>
+#Start recording tcl command: 12/9/2024 20:16:39
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+#Stop recording: 12/9/2024 20:18:48
+
+
+
+<A name="pn241209201930"></A><B><U><big>pn241209201930</big></U></B>
+#Start recording tcl command: 12/9/2024 20:18:57
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+#Stop recording: 12/9/2024 20:19:30
+
+
+
+<A name="pn241209202452"></A><B><U><big>pn241209202452</big></U></B>
+#Start recording tcl command: 12/9/2024 20:24:41
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+#Stop recording: 12/9/2024 20:24:52
+
+
+
+<A name="pn241209202509"></A><B><U><big>pn241209202509</big></U></B>
+#Start recording tcl command: 12/9/2024 20:25:01
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+prj_close
+#Stop recording: 12/9/2024 20:25:09
+
+
+
+<A name="pn241209223510"></A><B><U><big>pn241209223510</big></U></B>
+#Start recording tcl command: 12/9/2024 20:31:34
+#Project Location: Z:/es4/final_project; Project name: final_project
+prj_open "Z:/es4/final_project/final_project.rdf"
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+launch_programmer_prj "C:/lscc/radiant/2023.1"
+#Stop recording: 12/9/2024 22:35:10
+
+
+
+</PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#pn241207124623>pn241207124623</A></LI>
+<LI><A href=#pn241207210059>pn241207210059</A></LI>
+<LI><A href=#pn241208164005>pn241208164005</A></LI>
+<LI><A href=#pn241209195649>pn241209195649</A></LI>
+<LI><A href=#pn241209201118>pn241209201118</A></LI>
+<LI><A href=#pn241209201848>pn241209201848</A></LI>
+<LI><A href=#pn241209201930>pn241209201930</A></LI>
+<LI><A href=#pn241209202452>pn241209202452</A></LI>
+<LI><A href=#pn241209202509>pn241209202509</A></LI>
+<LI><A href=#pn241209223510>pn241209223510</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+
