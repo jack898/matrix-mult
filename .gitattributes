@@ -1,3 +1,6 @@
+*.html linguist-detectable=false
+*.tex linguist-detectable=false
+
 FinalProject_microcontroller/Matrix_Sender_C/src linguist-language=C
 
 FinalProject_microcontroller/Matrix_Sender_Python/main.py linguist-language=Python
