@@ -1,5 +1,6 @@
-*.html linguist-detectable=false
-*.tex linguist-detectable=false
+
+*.html linguist-vendored
+*.tex linguist-vendored
 
 FinalProject_microcontroller/Matrix_Sender_C/src linguist-language=C
 
