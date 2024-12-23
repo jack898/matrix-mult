@@ -4,6 +4,8 @@
 *.sty linguist-vendored
 *.v linguist-vendored
 *.v linguist-detectable=false
+*.tcl linguist-vendored
+*.tcl linguist-detectable=false
 
 # To include correct files
 FinalProject_microcontroller/Matrix_Sender_C/src linguist-language=C
