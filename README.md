@@ -5,7 +5,7 @@ This project demonstrates accelerated matrix multiplication on FPGAs;
 it stores two 3x3 matrices on a microcontroller, and serially streams them to
 an FPGA which multiplies them and visualizes them along with their product matrix.
 
-For more details, see the report.pdf _coming soon_
+For a detailed writeup, see [report.pdf](report.pdf).
 
 This was a final project for [ES4: Introduction to Digital Logic](https://www.ece.tufts.edu/es/4/) 
 at Tufts University, Fall 2024.
